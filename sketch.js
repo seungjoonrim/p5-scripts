@@ -208,7 +208,7 @@ function draw() {
 
   // about 1 hour
   let progress = ((counter/counterMax)*100).toFixed(2);
-  console.log("progress: " + progress + "%");
+  console.log("progresss: " + progress + "% of " + counterMax + " iterations");
   if (counter >= counterMax) {
     console.log("DONE! :)")
     noLoop();
